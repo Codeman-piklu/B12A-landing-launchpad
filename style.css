@@ -104,5 +104,49 @@ background-size:cover;
 .action_image{
     width:100%;
     border-radius:48px;
+}
+
+/* *Productive section style  */
+
+.production_user_section{
+     max-width: 1140px;
+      background-color:rgba(78, 71, 255, 10%);
+     margin: 0 auto; 
+     padding: 59px 142px;
+      border-radius:24px ; -webkit-border-radius:24px ; -moz-border-radius:24px ; -ms-border-radius:24px ;
+      -o-border-radius:24px ;
+margin-bottom: 137px;
+
+}
+.production_Section_title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    color: rgba(37, 36, 50, 100%);
+    margin-bottom:-40px;
+}
+.users_info{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    /* margin-bottom: -10px; */
+ 
+}
+.info_details{
+    width: 180px;
+}
+.info_title{
+   font-size: 80px; 
+   font-weight: 700;
+   color: rgba(78, 71, 255, 100%);
+   margin-bottom: -10px;
+   text-align: center;
+}
+.info_description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 50%);
+     padding-top: -200px; 
     
 }
