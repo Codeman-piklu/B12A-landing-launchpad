@@ -17,7 +17,7 @@
 .btn_primary{
     font-family: "Raleway", sans-serif;
    font-size: 16px;
-   font-weight: bold;
+   font-weight: 700;
    color: #FFFFFF;
    border-radius:10px;
    -webkit-border-radius:10px;
@@ -29,6 +29,9 @@
    background-color: #4E47FF;
   
 }
+ body{
+    background-color: white;
+} 
  /* *Navbar Section style */
  nav{
      display: flex;
@@ -37,7 +40,6 @@
      /* margin: 50px 150px; */
      max-width: 1440px;
      margin: 0 auto;
-  
     }
     nav ul li{
         list-style: none;
@@ -48,7 +50,7 @@
     .nav_title{
        color: #4E47FF;
        font-size: 34px;
-       font-weight: 700px;
+       font-weight: 900;
     }
  /** Banner section*/
 header{
@@ -64,13 +66,43 @@ background-size:cover;
 }
  .banner_title{
     font-size: 65px;
-    font-weight: bold;
+    font-weight: 700;
     color: #252432;
-    text-align: center;
+    text-align:center;
    
  }
  .banner_button{
     display: block;
     margin: 37px auto 0;
  }
- 
+ /* *action section style */
+ .action_section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 116px auto;
+    align-items: center;
+    gap: 220px;
+ }
+ .action_container{
+    width:517px;
+ }
+ .action_title{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+ }
+ .action_description{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 50%);
+    font-weight: 400;
+ }
+.action_image_section{
+    width:403px;
+    
+}
+.action_image{
+    width:100%;
+    border-radius:48px;
+    
+}
