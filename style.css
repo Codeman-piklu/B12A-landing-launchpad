@@ -17,7 +17,7 @@
 .btn_primary{
     font-family: "Raleway", sans-serif;
    font-size: 16px;
-   font-weight: 700;
+   font-weight: 500;
    color: #FFFFFF;
    border-radius:10px;
    -webkit-border-radius:10px;
@@ -29,7 +29,7 @@
    background-color: #4E47FF;
   
 }
- main,hearder{
+ body{
     background-color:#F5F8FF;
 } 
  /* *Navbar Section style */
@@ -229,15 +229,14 @@ color: rgba(179, 179, 179, 100%);
  /* *Get in touch section style  */
  .get_touch_section{
     max-width: 1140px;
-    padding: 71px 0px ;
+    padding: 71px 0;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 115px;
     align-items: center;
-    /* background-color: rgba(214, 221, 237, 100%); 
-     */
-     /* background-color: #4f46e5; */
+margin-bottom: 106.23px;
+
  }
  .get_touch_title_conteiner{
 width: 528px;
@@ -280,4 +279,46 @@ textarea {
   outline: none;
   border: NONE;
   width:497PX ;
+} 
+/** focus better section style  */
+.focus_section{
+    /* max-width:1140px; */
+    margin: 0 auto;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    border: none;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 71px 0;
+    width: 1140px;
+}
+.focus_title{
+    font-size: 50px;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 100%);
+    
+}
+.focus_description{
+    font-size: 16px;
+    font-weight:400;
+    color: rgba(0, 0, 0, 50%);
+    margin-top: -30px;
+}
+.get_started_button{
+    margin-bottom: 20px;
+}
+.img_focus_better{
+    width: 840px;
+    margin: 0 auto;
+}
+.focus_section_image{
+    border-radius: 48px;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+    width: 100%;
 }
