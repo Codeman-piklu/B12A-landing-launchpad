@@ -274,7 +274,7 @@ textarea {
   padding: 20px 32px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 20px;
   outline: none;
   border: NONE;
@@ -358,6 +358,19 @@ border-top: 1px solid rgba(0, 0, 0, 10%);
     font-size: 16px;
     color: rgba(137, 135, 161, 100%);
 }
+.footer_links ul li a:hover{
+    color: red;
+}
 .footer_links ul li{
     list-style: none;
+}
+/* *button hover effect  */
+button:hover{
+    background-color: red;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    box-shadow: 2px 2px 4px 0 black;
 }
